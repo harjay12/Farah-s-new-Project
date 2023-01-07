@@ -6,74 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="cssFile/styles.css" />
     <link rel="stylesheet" href="cssFile/css/bootstrap.css" />
-    <link rel="stylesheet" href="jsFiles/js/bootstrap.min.js" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="jsFiles/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/jsFiles/js/main.js"></script>
 
     <title>Document</title>
   </head>
 
   <body>
     <head>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar scroll</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarScroll"
-            aria-controls="navbarScroll"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarScroll">
-            <ul
-              class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
-              style="--bs-scroll-height: 100px"
-            >
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarScrollingDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Link
-                </a>
-                <ul
-                  class="dropdown-menu"
-                  aria-labelledby="navbarScrollingDropdown"
-                >
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link disabled"
-                  href="#"
-                  tabindex="-1"
-                  aria-disabled="true"
-                  >Link</a
-                >
-              </li>
+      <div class="page-wrapper">
+        <div class="nav-wrapper">
+          <div class="grad-bar"></div>
+          <ul class="mini-Nav">
+            <li class="mini-item"><a href="http://"> STAFFING </a></li>
+            <li class="mini-item"><a href="http://">HOMECARE </a></li>
+            <li class="mini-item"><a href="http://">CPR</a></li>
+          </ul>
+          <nav class="navbar">
+            <img src="" alt="Company Logo" />
+            <div class="menu-toggle" id="mobile-menu">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+
+            <ul class="nav">
+              <li class="nav-item"><a href="#">Home</a></li>
+              <li class="nav-item"><a href="#">About</a></li>
+              <li class="nav-item"><a href="#">Work</a></li>
+              <li class="nav-item"><a href="#">Careers</a></li>
+              <li class="nav-item"><a href="#">Contact Us</a></li>
             </ul>
-          </div>
+          </nav>
         </div>
-      </nav>
+      </div>
     </head>
   </body>
 </html>
