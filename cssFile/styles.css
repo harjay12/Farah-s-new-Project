@@ -61,22 +61,24 @@ h2 {
 }
 
 .navbar img {
-  height: 16px;
+  /* height: 16px; */
   width: auto;
   justify-self: start;
-  margin-left: 20px;
-}
-.mini-Nav {
-  list-style: none;
-  display: grid;
-  grid-template-columns: repeat(6,1fr);
-  justify-self: end;
+  margin-left: 30px;
 }
 
+.mini-nav-tp{
+  position: absolute;
+  top: 10px;
+  list-style: none;
+  display: flex;
+  right: 80px;
+}
 .mini-item a {
   color: #000;
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 400;
+  margin: 20px ;
   text-decoration: none;
   transition: color 0.3s ease-out;
 }
@@ -96,7 +98,7 @@ h2 {
 
 .nav-item a {
   color: #000;
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   font-weight: 400;
   text-decoration: none;
   transition: color 0.3s ease-out;
